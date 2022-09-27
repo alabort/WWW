@@ -22,7 +22,7 @@ const siteMetadata = {
   twitter_user: "#",
   stackoverflow: "#",
   youtube: "#",
-  linkedin: "#",
+  linkedin: "https://www.linkedin.com/in/alan-bortolotti/",
 };
 
 export default siteMetadata;
