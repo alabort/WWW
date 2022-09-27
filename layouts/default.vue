@@ -15,7 +15,8 @@ import TheFooter from "../components/TheFooter.vue";
 
 export default {
   component: {
-    TheHeader
+    TheHeader,
+    TheFooter,
   },
 };
 </script>
