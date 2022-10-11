@@ -5,9 +5,9 @@ const projectsData = [
     imgSrc: "",
     href: "#",
     github: "#",
-    tech1: "Next",
-    tech2: "Markdown",
-    tech3: "TailwindCSS",
+    tech1: "R",
+    tech2: "Excel",
+    tech3: "Python",
   },
   {
     title: "Tailwind Landing Page",
