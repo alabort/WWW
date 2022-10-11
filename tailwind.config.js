@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   darkMode: "class",
   content: [
@@ -8,7 +10,11 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ["Roboto", ...defaultTheme.fontFamily.sans],
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };
